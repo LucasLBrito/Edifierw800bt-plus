@@ -4,92 +4,102 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=PT+Sans+Caption:wght@400;700&display=swap" rel="stylesheet">
     <title>Edifierw800bt-plus</title>
+
 </head>
 <body>
     <header>
         <nav>
+            <img src="/img/edifier_logo.png" alt="logo-EDIFIER">
             <ul>
-                <li>
-                    <img src="/img/edifier_logo.png" alt="logo-EDIFIER">
-                </li>
-                <li><a href="">home</a></li>
-                <li><a href="">reviwes</a></li>
-                <li><a href="">contato</a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#reviwes">Reviwes</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="home">
             <div class="text_home">
-                <p>Sua música é magica</p>
+                <h3>Sua música é magica</h3>
                 <h1>Edifier w800bt-plus</h1>
-                <p>R$299,00</p>
-                <br>
-                <a href="">
-                    <img src="" alt="sacola de compra">
-                    <p>Compre agora</p>
-                </a>
+                <div class="home_preco">
+                    <p class="dinheiro">R$299,00</p>
+                    <img src="/img/Line 1.png" alt="" class="linha">
+                    <a href="https://edifier.com.br/fone-de-ouvido-bluetooth-5-1-edifier-w800bt-plus.html">
+                        <img src="/img/Bag.png" alt="sacola de compra">
+                        <p>Compre agora</p>
+                    </a>
+                </div>
             </div>
             <div class="image_home">
-                <img src="/img/edifier-w800bt-branco-headphone-bluetooth_3 1.png" alt="fone">
-                <img src="/img/FunnelSimple.png" alt="icone">
+                <img src="/img/edifier-w800bt-branco.png" alt="fone">
             </div>
-            <img src="/img/CaretCircleDown.png" alt="">
     </main>
-    <section class="overview">
+    <section class="overview" id="reviwes">
         <ul>
-            <li>
-                <div class="overview_text">
+            <li id="over-1">
+                <div class="overview_text" >
                     <h3>Fone com Design confortável</h3>
                     <p>Os protetores auriculares são projetados com uma inclinação de 15 graus; a haste do fone pode ser esticada em uma ampla faixa e as almofadas são feitas de couro PU, o que proporciona uma experiência de uso confortável por várias horas.
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="overview_text">
-                    <h3>Fone com Design confortável</h3>
-                    <p>Os protetores auriculares são projetados com uma inclinação de 15 graus; a haste do fone pode ser esticada em uma ampla faixa e as almofadas são feitas de couro PU, o que proporciona uma experiência de uso confortável por várias horas.
+            <li id="over-2">
+                <div class="overview_text" >
+                    <h3>Chamadas de voz claras e estáveis</h3>
+                    <p>O Qualcomm cVc 8.0 capta vozes com precisão e elimina o ruído de fundo e ambiente, levando a uma comunicação mais clara durante as chamadas.
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="overview_text">
-                    <h3>Fone com Design confortável</h3>
-                    <p>Os protetores auriculares são projetados com uma inclinação de 15 graus; a haste do fone pode ser esticada em uma ampla faixa e as almofadas são feitas de couro PU, o que proporciona uma experiência de uso confortável por várias horas.
+            <li id="over-3">
+                <div class="overview_text" >
+                    <h3>Bateria incrível</h3>
+                    <p>
+                        A bateria de lítio embutida no fone tem uma grande capacidade que pode fornecer até 55 horas de tempo de audição sem fio.
                     </p>
                 </div>
             </li>
-            <li>
-                <div class="overview_text">
-                    <h3>Fone com Design confortável</h3>
-                    <p>Os protetores auriculares são projetados com uma inclinação de 15 graus; a haste do fone pode ser esticada em uma ampla faixa e as almofadas são feitas de couro PU, o que proporciona uma experiência de uso confortável por várias horas.
+            <li id="over-4">
+                <div class="overview_text" >
+                    <h3>Personalize o seu áudio no app</h3>
+                    <p>O App EDIFIER CONNECT oferece uma experiência auditiva mais inteligente e personalizada. Ele permite selecionar modos de som diferentes e personalizar o nome de emparelhamento dos fones de ouvido, entre outras funcionalidades.
                     </p>
                 </div>
             </li>
         </ul>
     </section>
-    <section class="contate">
+    <section class="contato" id="contato">
         <body>
             <form action="/submit_form" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required><br><br>
+                <h3>Seja as novidades</h3>
+                <input type="text" id="nome" name="nome" placeholder="Seu nome" required><br><br>
         
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required><br><br>
+                <input type="email" id="email" name="email" placeholder="Seu email"><br><br>
         
-                <input type="submit" value="Enviar">
+                <input type="submit" value="Enviar" id="button">
             </form>
+            <a href="https://edifier.com.br/fone-de-ouvido-bluetooth-5-1-edifier-w800bt-plus.html">
+                <img src="/img/Bag.png" alt="sacola de compra">
+                <p>Compre agora</p>
+            </a>
     </section>
     <footer>
+        
         <nav>
             <ul>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
-                <li><img src="" alt=""></li>
+                <li><img src="/img/logo sem fundo.png" alt="logo-EDIFIER"></li>
+                <div class="redes_sociais">
+                    <li><a href="https://www.facebook.com/lucas.brito.50115?mibextid=ZbWKwL"><img src="/img/FacebookLogo.png" alt=""></a></li>
+                    <li><a href="https://www.facebook.com/lucas.brito.50115?mibextid=ZbWKwL"><img src="/img/InstagramLogo.png" alt=""></a></li>
+                    <li><a href="https://www.linkedin.com/in/lucaslbrito?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="/img/LinkedinLogo.png" alt=""></a></li>
+                    <li><a href="https://github.com/LucasLBrito"><img src="/img/GithubLogo.png" alt=""></a></li>
+                </div>
             </ul>
         </nav>
-        <p>copyright by Edifier e Lucas Lima Brito</p>
+        <p>Copyright  by Edifier e Lucas Lima Brito</p>
     </footer>
 
 </body>
